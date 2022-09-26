@@ -74,9 +74,12 @@ li{
     overflow: hidden;
 }
 .active{
-    padding: 48px;
+    padding: 48px 20px;
     opacity: 1;
     height: auto;
+}
+.show{
+    display: block !important;
 }
 /* header section */
 .header{
@@ -126,6 +129,20 @@ li{
     font-size: 22px;
     text-decoration: none;
     color: #fff;
+}
+.menu-box{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.menu-box i{
+    padding: 15px 23px;
+    font-size: 26px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-weight: 600;
 }
 .circle{
     background: #fff;
@@ -197,7 +214,7 @@ margin-bottom:10px ;
 }
 
 .intro-container .circle-home4{
-    right: -20px;
+    right: -10px;
     left: auto;
 }
 .home .js-submit-gallery{
@@ -443,9 +460,14 @@ background: rgba(0, 0, 0, 0.3);
 }
 .footer{
     margin: 30px 0;
+    
     justify-content: space-between;
+    
     color: #fff;
     font-size: 17px;
+}
+.footer p:first-child{
+    width: 50%;
 }
 
 @keyframes vanish {
